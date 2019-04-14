@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
-
-void main() => runApp(MyApp());
+import 'package:flutter/rendering.dart';
+void main() {
+debugPaintSizeEnabled=true;
+// debugPaintBaselinesEnabled = true;
+//debugPaintLayerBordersEnabled = true;
+runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
